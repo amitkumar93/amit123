@@ -1,1 +1,1 @@
-while{if}
+var a = 'amit';
