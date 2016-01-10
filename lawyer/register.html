@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Register</title>
+     <!-- CSS -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script type = "text/javascript">
+      function display() {
+        message = "<ul><li><b>NAME: </b>" + document.form1.name.value;
+        message += "<li><b>ADDRESS: </b>" + document.form1.uname.value;
+        message += "<li><b>Birthday: </b>" + document.form1.bDay.value + "</ul>";
+        document.write(message);
+       }
+    </script>
+ </head>
+ <body>
+   <nav class="light-blue lighten-1" role="navigation">
+     <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Home Lawyer</a>
+       <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+       </ul>
+     </div>
+   </nav>
+   <br> <br>
+  <div class="container">
+    <div class="col s6" id="right">
+      <form name="form1">
+        Name :<input type="text" placeholder="Enter your name" name="name">
+        User Name :<input type="text" placeholder="Enter a username name" name="uname">
+        Password:<input type="password" placeholder="Enter your password" min="6" name="pwd">
+        Confirm Password:<input type="password"  placeholder="re-enter password" min="6" id="cpwd" name="cpwd">
+        Birthdate:<input type="date" name="bDay">
+        <p><input type="BUTTON" value="Submit & Display" onClick="display();"></p>
+      </form>
+    </div>
+  </div>
+ </body>
+</html>
