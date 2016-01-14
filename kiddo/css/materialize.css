@@ -2312,7 +2312,6 @@ h1 {
   margin: 0.67em 0;
 }
 
-
 /**
  * Address styling not present in IE 8/9.
  */
@@ -2808,15 +2807,6 @@ video.responsive-video {
   right: 0;
   bottom: 0;
   z-index: -1;
-}
-.abc{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-
 }
 
 .parallax img {
@@ -6659,7 +6649,7 @@ nav ul a span.badge {
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 100%;
+  width: 90%;
 }
 
 @media only screen and (min-width: 601px) {
@@ -6673,11 +6663,6 @@ nav ul a span.badge {
     width: 70%;
   }
 }
-
-.imageContainer {
-  position: relative;
-width: 100%;
- }
 
 .container .row {
   margin-left: -0.75rem;
@@ -7574,26 +7559,15 @@ h1 {
 }
 
 h2 {
-  /*default parameter in comment*/
-  /*font-size: 3.56rem;
-  line-height: 110%;*/
-  font-size: 2rem;
-  line-height: 150%;
-  /*margin: 1.78rem 0 1.424rem 0;*/
-  margin-left: 8rem;
-  position: absolute;
-  top: 0.5rem;
-  width: 100%;
-}
-
-h3 {
-
   font-size: 3.56rem;
   line-height: 110%;
   margin: 1.78rem 0 1.424rem 0;
-  /*font-size: 2.92rem;
+}
+
+h3 {
+  font-size: 2.92rem;
   line-height: 110%;
-  margin: 1.46rem 0 1.168rem 0;*/
+  margin: 1.46rem 0 1.168rem 0;
 }
 
 h4 {
@@ -7623,7 +7597,7 @@ strong {
 }
 
 small {
-  font-size: 100%;
+  font-size: 75%;
 }
 
 .light, footer.page-footer .footer-copyright {
@@ -7842,7 +7816,8 @@ small {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: 80%;
+  height:60%;
 }
 
 .card .card-image .card-title {
@@ -7866,10 +7841,11 @@ small {
 .card .card-content .card-title {
   line-height: 48px;
 }
+/*editing done here*/
 
 .card .card-action {
-  border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 20px;
+  border-top: 0px solid rgba(160, 160, 160, 0.2);
+  padding: 10px;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
@@ -10411,9 +10387,8 @@ select {
 
 .slider {
   position: relative;
-  height:500px;
-  width: 70%;
-
+  height: 400px;
+  width: 80%;
 }
 
 .slider.fullscreen {
@@ -10448,7 +10423,7 @@ select {
   left: 0;
   z-index: 1;
   width: 100%;
-  height: inherit;
+  height: 110%;
   overflow: hidden;
 }
 
@@ -10483,6 +10458,7 @@ select {
   right: 0;
   bottom: 0;
   margin: 0;
+
 }
 
 .slider .indicators .indicator-item {

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <title>Kiddo</title>
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+     </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html"><img src="images/logo.png"></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="admission.html">Admissions</a></li>
+          </ul>
+      </div>
+     </nav>
+     <br>
+     <!-- admission header -->
+     <div class="row">
+       <div class="col s12 m12 l12">
+        <div class="card-panel #f44336 red">
+         <span class="white-text center"><h2>Admission</h2></span>
+        </div>
+       </div>
+     </div>
+     <div class="container">
+       <!-- card 1 -->
+     <div class="row">
+         <div class="col s12 m6 l6">
+           <div class="card #2979ff blue accent-3">
+             <div class="card-content white-text">
+               <span class="card-title center"><h4>Admission Process</h4></span
+                  <span class="card-title"><h5>Documents Required</h5></span>
+                    <p>Photocopy of child’s Date of Birth</p>
+                    <p>Child's Immunization History</p>
+                    <p>Four Passport size photographs of the child</p>
+             </div>
+           </div>
+         </div>
+            <!-- card 2 -->
+           <div class="col s12 m6 l6">
+             <div class="card #2979ff blue accent-3">
+               <div class="card-content white-text">
+                 <span class="card-title center"><h4>Admission Criteria</h4></span>
+                    <p class="center">Age Group &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level</p>
+                    <p class="center">&nbsp;&nbsp;&nbsp;2 & 2+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Nursery</p>
+                    <p class="center">3 & 3+ &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;L.K.G</p>
+                    <p class="center">4 & 4+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;U.K.G</p>
+
+               </div>
+             </div>
+            </div>
+           </div>
+           <div><h4 class="red-text">For Any Query</h4></div>
+           <!-- forms -->
+           <div class="row">
+            <form class="col s12" name="write" onsubmit="return write_below(this);">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="Please Enter Your First Name" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Telephone</label>
+                </div>
+              </div>
+              <div class="row">
+               <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Your Query</label>
+               </div>
+             </div>
+             <a class="waves-effect waves-light btn" name="submit">SUBMIT</a>
+            </form>
+         </div>
+
+          <br><br><br>
+    </div>
+    <!-- footer -->
+     <footer class="page-footer red">
+       <div class="container">
+         <div class="row">
+           <div class="col l6 s12">
+            <h5 class="white-text">Reach On</h5>
+            <p class="grey-text text-lighten-4">S-45, Second Floor, Telecom Layout</p>
+            <p class="grey-text text-lighten-4">11th Main Road, Nagvara Bangalore 560026</p>
+           </div>
+           <div class="col l3 s12">
+             <h5 class="white-text">Connect On</h5>
+             <ul>
+                <li><a href="https://www.facebook.com/"><img src="images/ffb.png" /></a>
+                <a href="https://twitter.com/"><img src="images/twiter.png"/></a></li>
+                <p class="grey-text text-lighten-4">Talk To Us: 1800 4800 24</p>
+              </ul>
+           </div>
+          </div>
+         </div>
+         <div class="footer-copyright">
+            © 2014 Copyright @ Amit
+         </div>
+       </footer>
+       <!--  Scripts-->
+       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+       <script src="js/materialize.js"></script>
+       <script src="js/init.js"></script>
+       <script src="js/index.js"></script>
+       <script src="js/admission.js"></script>
+     </body>
+   </html>
